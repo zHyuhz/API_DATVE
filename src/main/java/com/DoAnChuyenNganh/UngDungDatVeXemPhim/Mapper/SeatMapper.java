@@ -1,4 +1,4 @@
-package Mapper;
+package com.DoAnChuyenNganh.UngDungDatVeXemPhim.Mapper;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
@@ -7,9 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Entity.Room;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Entity.Seats;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Repo.RoomRepo;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.request.SeatRequest;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.SeatResponse;
-
-import resquest.SeatRequest;
 
 @Mapper(componentModel = "spring")
 public abstract class SeatMapper {

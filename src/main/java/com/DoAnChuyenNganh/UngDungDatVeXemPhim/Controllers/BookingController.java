@@ -12,10 +12,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Services.BookingService;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.request.ApiResponse;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.request.BookingRequest;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.BookingReponse;
-
-import resquest.ApiResponse;
 
 @RestController
 @RequestMapping("/bookings")

@@ -1,4 +1,4 @@
-package Service;
+package com.DoAnChuyenNganh.UngDungDatVeXemPhim.Services;
 
 import java.util.List;
 
@@ -10,9 +10,8 @@ import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Entity.Seats;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Mapper.SeatMapper;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Repo.RoomRepo;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Repo.SeatRepo;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.request.SeatRequest;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.SeatResponse;
-
-import resquest.SeatRequest;
 
 @Service
 public class SeatService {

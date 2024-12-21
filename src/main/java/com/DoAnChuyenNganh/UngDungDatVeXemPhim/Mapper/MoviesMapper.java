@@ -2,9 +2,8 @@ package com.DoAnChuyenNganh.UngDungDatVeXemPhim.Mapper;
 
 import org.mapstruct.Mapper;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Entity.Movies;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.request.MovieRequest;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.MovieResponse;
-
-import resquest.MovieRequest;
 
 @Mapper(componentModel = "spring")
 public interface MoviesMapper {

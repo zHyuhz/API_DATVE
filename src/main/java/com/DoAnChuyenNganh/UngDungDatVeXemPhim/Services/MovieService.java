@@ -17,9 +17,8 @@ import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Exception.AppException;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Exception.ErrorCode;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Mapper.MoviesMapper;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Repo.MovieRepo;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.request.MovieRequest;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.MovieResponse;
-
-import resquest.MovieRequest;
 
 @Service
 public class MovieService {

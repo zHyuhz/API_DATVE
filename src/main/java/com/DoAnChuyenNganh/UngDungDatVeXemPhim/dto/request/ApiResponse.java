@@ -1,4 +1,4 @@
-package resquest;
+package com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.request;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;

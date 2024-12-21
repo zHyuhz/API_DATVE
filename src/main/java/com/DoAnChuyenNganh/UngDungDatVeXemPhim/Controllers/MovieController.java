@@ -9,10 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Services.MovieService;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.request.ApiResponse;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.request.MovieRequest;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.MovieResponse;
-
-import resquest.ApiResponse;
-import resquest.MovieRequest;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
