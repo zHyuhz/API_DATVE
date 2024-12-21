@@ -1,4 +1,4 @@
-package Service;
+package com.DoAnChuyenNganh.UngDungDatVeXemPhim.Services;
 
 import java.util.List;
 
@@ -12,9 +12,8 @@ import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Mapper.BookingMapper;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Repo.BookingRepo;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Repo.ScheduleRepo;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Repo.UserRepo;
-
-import Response.BookingReponse;
-import resquest.BookingRequest;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.request.BookingRequest;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.BookingReponse;
 
 @Service
 public class BookingService {

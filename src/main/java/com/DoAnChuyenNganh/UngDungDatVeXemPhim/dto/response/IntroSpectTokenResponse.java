@@ -1,4 +1,4 @@
-package Response;
+package com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

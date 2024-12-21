@@ -1,4 +1,4 @@
-package Response;
+package com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response;
 
 import java.time.LocalDate;
 import java.time.LocalTime;

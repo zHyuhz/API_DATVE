@@ -16,6 +16,8 @@ import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Exception.AppException;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Exception.ErrorCode;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Repo.AccountRepo;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.request.AuthenticationRequest;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.AuthenticationResponse;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.IntroSpectTokenResponse;
 import com.nimbusds.jose.JOSEException;
 import com.nimbusds.jose.JWSAlgorithm;
 import com.nimbusds.jose.JWSHeader;
@@ -28,8 +30,6 @@ import com.nimbusds.jose.crypto.MACVerifier;
 import com.nimbusds.jwt.JWTClaimsSet;
 import com.nimbusds.jwt.SignedJWT;
 
-import Response.AuthenticationResponse;
-import Response.IntroSpectTokenResponse;
 import resquest.IntroSpectTokenRequest;
 
 @Service

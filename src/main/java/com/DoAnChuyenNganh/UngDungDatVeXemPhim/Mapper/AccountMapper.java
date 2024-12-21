@@ -4,8 +4,8 @@ import org.mapstruct.Mapper;
 import org.mapstruct.MappingTarget;
 
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Entity.Accounts;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.AccountResponse;
 
-import Response.AccountResponse;
 import resquest.RegisterAccountRequest;
 import resquest.UpdateAccountRequest;
 

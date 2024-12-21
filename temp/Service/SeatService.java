@@ -10,8 +10,8 @@ import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Entity.Seats;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Mapper.SeatMapper;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Repo.RoomRepo;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Repo.SeatRepo;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.SeatResponse;
 
-import Response.SeatResponse;
 import resquest.SeatRequest;
 
 @Service

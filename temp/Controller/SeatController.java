@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Services.SeatService;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.SeatResponse;
 
-import Response.SeatResponse;
 import resquest.ApiResponse;
 import resquest.SeatRequest;
 

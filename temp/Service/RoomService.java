@@ -8,8 +8,8 @@ import org.springframework.stereotype.Service;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Entity.Room;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Mapper.RoomMapper;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Repo.RoomRepo;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.RoomResponse;
 
-import Response.RoomResponse;
 import resquest.RoomRequest;
 
 @Service

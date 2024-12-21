@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Services.UserService;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.UserResponse;
 
-import Response.UserResponse;
 import resquest.ApiResponse;
 import resquest.UserRequest;
 

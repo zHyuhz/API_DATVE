@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Entity.Accounts;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Services.AccountService;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.AccountResponse;
 
-import Response.AccountResponse;
 import jakarta.validation.Valid;
 import resquest.ApiResponse;
 import resquest.RegisterAccountRequest;

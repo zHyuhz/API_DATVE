@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Services.MovieService;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.MovieResponse;
 
-import Response.MovieResponse;
 import resquest.ApiResponse;
 import resquest.MovieRequest;
 
