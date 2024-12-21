@@ -1,4 +1,4 @@
-package Controller;
+package com.DoAnChuyenNganh.UngDungDatVeXemPhim.Controllers;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -58,7 +58,7 @@ public class MovieController {
 	
 	
 	//Cập nhật phim
-	@PutMapping("/{movieId}")
+	@PutMapping("/{movied}")
 	public ApiResponse<MovieResponse> updateMovie(
 	        @PathVariable("movieId") int movieId,
 	        @RequestParam("movieName") String movieName,
@@ -92,7 +92,7 @@ public class MovieController {
 	                .build();
 	    }
 
-	  @DeleteMapping("/{movieId}")
+	  @GetMapping("/{moveId}")
 		public ApiResponse<String> deleteMovie(@PathVariable int movieId) {
 			movieService.deleteMovie(movieId);
 			return ApiResponse.<String>builder()
