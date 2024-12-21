@@ -1,11 +1,11 @@
-package resquest;
+package com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.request;
 
 import java.time.LocalDate;
 import java.util.List;
 
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Entity.Seats;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.SeatResponse;
 
-import Response.SeatResponse;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

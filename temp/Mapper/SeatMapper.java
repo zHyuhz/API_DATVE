@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Entity.Room;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Entity.Seats;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Repo.RoomRepo;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.SeatResponse;
 
-import Response.SeatResponse;
 import resquest.SeatRequest;
 
 @Mapper(componentModel = "spring")

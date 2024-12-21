@@ -3,8 +3,8 @@ package com.DoAnChuyenNganh.UngDungDatVeXemPhim.Mapper;
 import org.mapstruct.Mapper;
 
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Entity.User;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.UserResponse;
 
-import Response.UserResponse;
 import resquest.UserRequest;
 
 @Mapper(componentModel = "spring")

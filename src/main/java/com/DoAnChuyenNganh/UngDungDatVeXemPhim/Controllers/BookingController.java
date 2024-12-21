@@ -1,4 +1,4 @@
-package Controller;
+package com.DoAnChuyenNganh.UngDungDatVeXemPhim.Controllers;
 
 import java.util.List;
 
@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Services.BookingService;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.request.BookingRequest;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.BookingReponse;
 
-import Response.BookingReponse;
 import resquest.ApiResponse;
-import resquest.BookingRequest;
 
 @RestController
 @RequestMapping("/bookings")

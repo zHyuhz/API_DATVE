@@ -3,9 +3,8 @@ package com.DoAnChuyenNganh.UngDungDatVeXemPhim.Mapper;
 import org.mapstruct.Mapper;
 
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Entity.Booking;
-
-import Response.BookingReponse;
-import resquest.BookingRequest;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.request.BookingRequest;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.BookingReponse;
 
 @Mapper(componentModel = "spring")
 public interface BookingMapper {

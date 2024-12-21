@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Services.AuthenticationService;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.request.AuthenticationRequest;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.AuthenticationResponse;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.IntroSpectTokenResponse;
 import com.nimbusds.jose.JOSEException;
 import com.nimbusds.jose.KeyLengthException;
 
-import Response.AuthenticationResponse;
-import Response.IntroSpectTokenResponse;
 import resquest.ApiResponse;
 import resquest.IntroSpectTokenRequest;
 

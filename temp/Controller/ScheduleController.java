@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Services.ScheduleService;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.ScheduleResponse;
 
-import Response.ScheduleResponse;
 import jakarta.validation.Valid;
 import resquest.ApiResponse;
 import resquest.ScheduleRequest;
