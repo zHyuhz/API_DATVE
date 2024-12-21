@@ -58,7 +58,7 @@ public class MovieController {
 	
 	
 	//Cập nhật phim
-	@PutMapping("/{movied}")
+	@PutMapping("/{movieId}")
 	public ApiResponse<MovieResponse> updateMovie(
 	        @PathVariable("movieId") int movieId,
 	        @RequestParam("movieName") String movieName,
@@ -92,7 +92,7 @@ public class MovieController {
 	                .build();
 	    }
 
-	  @GetMapping("/{moveId}")
+	  @DeleteMapping("/{movieId}")
 		public ApiResponse<String> deleteMovie(@PathVariable int movieId) {
 			movieService.deleteMovie(movieId);
 			return ApiResponse.<String>builder()
