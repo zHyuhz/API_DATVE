@@ -1,4 +1,4 @@
-package Repo;
+package com.DoAnChuyenNganh.UngDungDatVeXemPhim.Repo;
 
 import java.util.List;
 
