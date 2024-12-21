@@ -1,4 +1,4 @@
-package resquest;
+package com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.request;
 
 
 import lombok.AllArgsConstructor;

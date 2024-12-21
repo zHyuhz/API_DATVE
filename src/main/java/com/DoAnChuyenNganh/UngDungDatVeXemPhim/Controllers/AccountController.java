@@ -14,12 +14,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Entity.Accounts;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Services.AccountService;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.request.ApiResponse;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.request.RegisterAccountRequest;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.request.UpdateAccountRequest;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.AccountResponse;
 
 import jakarta.validation.Valid;
-import resquest.ApiResponse;
-import resquest.RegisterAccountRequest;
-import resquest.UpdateAccountRequest;
 
 @RestController
 @RequestMapping("/accounts")

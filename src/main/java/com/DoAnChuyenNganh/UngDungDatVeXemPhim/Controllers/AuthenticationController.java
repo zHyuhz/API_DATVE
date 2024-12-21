@@ -9,14 +9,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Services.AuthenticationService;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.request.ApiResponse;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.request.AuthenticationRequest;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.request.IntroSpectTokenRequest;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.AuthenticationResponse;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.IntroSpectTokenResponse;
 import com.nimbusds.jose.JOSEException;
 import com.nimbusds.jose.KeyLengthException;
-
-import resquest.ApiResponse;
-import resquest.IntroSpectTokenRequest;
 
 @RestController
 @RequestMapping("/auth")

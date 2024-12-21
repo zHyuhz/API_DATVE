@@ -9,9 +9,8 @@ import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Entity.Room;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Entity.Schedule;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Repo.MovieRepo;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.Repo.RoomRepo;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.request.ScheduleRequest;
 import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.response.ScheduleResponse;
-
-import resquest.ScheduleRequest;
 
 @Mapper(componentModel = "spring")
 public abstract class ScheduleMapper {

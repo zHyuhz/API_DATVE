@@ -1,12 +1,13 @@
-package resquest;
+package com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.request;
 
-import jakarta.validation.constraints.Size;
+import java.time.LocalDate;
+
+
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 import lombok.experimental.FieldDefaults;
 
 @Data // tạo các hàm getter/setter...
@@ -14,12 +15,17 @@ import lombok.experimental.FieldDefaults;
 @AllArgsConstructor
 @Builder // tạo Obj nhanh hơn Ex: Object.builder().Attribute1...buid()
 @FieldDefaults(level = AccessLevel.PRIVATE) // Đặt mặc định các thuộc tính không khai báo cụ thể là private
-public class RegisterAccountRequest {
-	String userName;
+public class MovieRequest {
 
-	@Size(min = 8, message = "ACCOUNT_PASSWORD_INVALID")
-	String password;
+	private int movie_id;
 
-	String email;
+	private String movie_name;
 
+	private String movie_description;
+
+	private String movie_genres;
+
+	private LocalDate movie_release;
+
+	private int movie_length;
 }

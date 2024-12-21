@@ -5,7 +5,7 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import resquest.ApiResponse;
+import com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.request.ApiResponse;
 
 //Khi 1 Exception xảy ra thì class này sẽ chịu nhiệm vụ xử lý Exception 
 @ControllerAdvice

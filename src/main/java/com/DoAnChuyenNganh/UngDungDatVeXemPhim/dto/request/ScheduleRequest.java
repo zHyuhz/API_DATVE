@@ -1,4 +1,4 @@
-package resquest;
+package com.DoAnChuyenNganh.UngDungDatVeXemPhim.dto.request;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
