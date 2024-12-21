@@ -1,4 +1,4 @@
-package Mapper;
+package com.DoAnChuyenNganh.UngDungDatVeXemPhim.Mapper;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

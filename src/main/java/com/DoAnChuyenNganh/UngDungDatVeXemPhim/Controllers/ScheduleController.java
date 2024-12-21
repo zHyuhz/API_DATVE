@@ -1,4 +1,4 @@
-package Controller;
+package com.DoAnChuyenNganh.UngDungDatVeXemPhim.Controllers;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
