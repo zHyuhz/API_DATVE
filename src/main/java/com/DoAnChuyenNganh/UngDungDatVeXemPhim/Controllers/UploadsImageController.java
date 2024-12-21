@@ -1,4 +1,4 @@
-package Controller;
+package com.DoAnChuyenNganh.UngDungDatVeXemPhim.Controllers;
 
 import java.nio.file.Files;
 import java.nio.file.Path;

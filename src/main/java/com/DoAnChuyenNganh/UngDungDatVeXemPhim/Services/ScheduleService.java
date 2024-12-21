@@ -1,4 +1,4 @@
-package Service;
+package com.DoAnChuyenNganh.UngDungDatVeXemPhim.Services;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
